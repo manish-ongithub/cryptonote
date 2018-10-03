@@ -236,6 +236,9 @@ mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
+I Used following command on my Windows 10 machine with Visual Studio 2017 installed.
+
+"cmake.exe -DBOOST_ROOT=D:\boost_1_64_0 -DBOOST_LIBRARYDIR=D:\boost_1_64_0\libs\ -G "Visual Studio 15" .."
 
 And then do Build.
 Good luck!
